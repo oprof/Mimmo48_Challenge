@@ -1,0 +1,86 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+.contenitore {
+  font-family: "Verdana";
+  width: 55%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 60px;
+}
+
+.nav_style {
+  margin: 0px;
+  text-align: center;
+  background-color: rgb(0, 221, 0);
+  padding: 12px;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 150px;
+}
+
+h1 {
+  color: rgb(0, 221, 0);
+  text-align: center;
+  font-size: 18px;
+}
+
+ul {
+  padding-left: 0px;
+  color: white;
+  list-style: none;
+}
+
+ul li {
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+ul li::before {
+content: ' \25FC';
+margin-right: 5px;
+}
+
+ul li h6 {
+  margin: 2px;
+  font-weight: normal;
+}
+
+h6.posto::before {
+  content: '\21A6';
+  margin-right: 5px;
+}
+
+ul li p {
+  margin: 2px;
+  font-weight: normal;
+}
+
+.barra {
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.barra40 {
+  width: 200px;
+  background-color: orange;
+}
+
+.barra70 {
+  width: 350px;
+  background-color: green;
+}
+
+.barra20 {
+  width: 100px;
+  background-color: red;
+}
